@@ -79,3 +79,8 @@ to compose more complex sequences for lighting leds
 - URL: https://github.com/jetfix/arduino-3x3x3-LedCube
 - author : https://github.com/jetfix/
 
+## TODO
+
+- Make API more simple, for know some of the API calls has _delay_ argument and
+  some note (you need manually call delay() function) 
+
