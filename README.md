@@ -23,7 +23,7 @@ To use library do:
     There is several API methods available. You can you use it 
     to compose more complex sequences for lighting leds
     
-    ```c
+    ```cpp
     int getColPin(int r);
     int getLevelPin(int lv);
     void lightOne(byte level, byte col, boolean clean );
