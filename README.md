@@ -24,13 +24,28 @@ There is several API methods available. You can you use it
 to compose more complex sequences for lighting leds
     
 ```cpp
-    int getColPin(int r);
+    // returns arduino pin number corresponding to column
+    int getColPin(int r); 
+
+    // returns arduino pin number corresponding to row
     int getLevelPin(int lv);
+    
+    // lights one LED diode
     void lightOne(byte level, byte col, boolean clean );
+    
+    // lights leds by perimter on the given raw
     void lightPerimetr(byte row);
+    
+    // makes _blink_ leds in perimetr of the given raw,
+    // with _pause_ between blinking, _count_ times
     void pulsePerimetr(byte row, byte count, int pause);
+    
     void lightOneOff(byte col);
+    
+    // lights on row of leds
     void lightRow(byte row, int ms);
+    
+    // lights one column of leds
     void lightCol(byte col, int pause, boolean clean);
 ```
     
