@@ -11,12 +11,12 @@ hardware for interaction with cubes bigger than 3x3x3)
 
 To use library do:
 
-l.  git@github.com:jetfix/arduino-3x3x3-LedCube.git
+1.  git@github.com:jetfix/arduino-3x3x3-LedCube.git
 
-l.  Than place Cube3x3x3 in /usr/share/arduino/libraries/
+2.  Than place Cube3x3x3 in /usr/share/arduino/libraries/
 or place where you store arduino libraries
 
-l.  Run Arduino IDE and load Cube3x3x3 example
+3.  Run Arduino IDE and load Cube3x3x3 example
 
 ## Documentation
 
