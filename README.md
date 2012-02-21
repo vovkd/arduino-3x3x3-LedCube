@@ -86,4 +86,6 @@ to compose more complex sequences for lighting leds
   
 - Add sequence API method. For creating sequences of API calls. This can help
   for creating more fun effects =)
+  
+- Make library drive N x N x N led cube.
 
