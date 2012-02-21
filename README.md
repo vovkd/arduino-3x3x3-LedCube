@@ -10,6 +10,7 @@ hardware for interaction with cubes bigger than 3x3x3)
 ## Installation and usage
 
 To use library do:
+
     1. git@github.com:jetfix/arduino-3x3x3-LedCube.git
 
     2. Than place Cube3x3x3 in /usr/share/arduino/libraries/
@@ -18,6 +19,7 @@ To use library do:
     3. Run Arduino IDE and load Cube3x3x3 example
 
 ## Documentation
+
     There is several API methods available. You can you use it 
     to compose more complex sequences for lighting leds
     
