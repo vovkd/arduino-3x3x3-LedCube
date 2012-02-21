@@ -18,6 +18,30 @@ or place where you store arduino libraries
 
 3.  Run Arduino IDE and load Cube3x3x3 example
 
+Sample usage:
+
+```cpp
+#include <Cube3x3x3.h>
+
+#define SIZE 3
+#define COLS (SIZE*SIZE)
+
+byte levelPins[SIZE] = {11,12,13};
+byte colPins[COLS] = {2,3,4,5,6,7,8,9,10};
+
+LedCube cube(SIZE, levelPins, colPins);
+int r = 0;
+void setup (){}
+
+void loop ()
+{
+    for (byte j = 0; j < SIZE; j++){
+        cube.lightPerimetr(j);
+        delay(30);
+    }
+}
+```
+
 ## Documentation
 
 There is several API methods available. You can you use it 
