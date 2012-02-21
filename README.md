@@ -11,17 +11,17 @@ hardware for interaction with cubes bigger than 3x3x3)
 
 To use library do:
 
-    l. git@github.com:jetfix/arduino-3x3x3-LedCube.git
+l. git@github.com:jetfix/arduino-3x3x3-LedCube.git
 
-    l. Than place Cube3x3x3 in /usr/share/arduino/libraries/
-    or place where you store arduino libraries
+l. Than place Cube3x3x3 in /usr/share/arduino/libraries/
+or place where you store arduino libraries
 
-    l. Run Arduino IDE and load Cube3x3x3 example
+l. Run Arduino IDE and load Cube3x3x3 example
 
 ## Documentation
 
-    There is several API methods available. You can you use it 
-    to compose more complex sequences for lighting leds
+There is several API methods available. You can you use it 
+to compose more complex sequences for lighting leds
     
 ```cpp
     int getColPin(int r);
