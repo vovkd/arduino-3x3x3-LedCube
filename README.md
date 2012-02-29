@@ -81,8 +81,8 @@ to compose more complex sequences for lighting leds
 
 ## TODO
 
-- Make API more simple, for know some of the API calls has _delay_ argument and
-  some note (you need manually call delay() function) 
+- Make API more simple, for know some of the API calls have _delay_ argument and
+  others - no (you need to call delay() function manually) 
   
 - Add sequence API method. For creating sequences of API calls. This can help
   for creating more fun effects =)
