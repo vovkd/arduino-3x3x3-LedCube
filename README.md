@@ -76,8 +76,6 @@ to compose more complex sequences for lighting leds
 ## Meta
 
 - Version: 0.1.0
-- URL: https://github.com/jetfix/arduino-3x3x3-LedCube
-- author : https://github.com/jetfix/
 
 ## TODO
 
